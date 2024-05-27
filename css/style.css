@@ -1,0 +1,219 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9B427C;
+}
+
+header {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    background-color: #fff;
+}
+
+h1 {
+    display: block;
+    width: max-content;
+    height: max-content;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+nav {
+    background-color: #fff;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.candyshop {
+    height: 170px;
+    width: 170px;
+}
+
+li {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+.buttonNav a {
+    text-align: center;
+    text-decoration: none;
+}
+
+li a {
+    color: black;
+    padding: 20px;
+}
+
+
+
+.gomitasfondo {
+    width: max-content;
+    height: max-content;
+}
+
+h2 {
+    background-color: #71D1EA;
+    text-align: center;
+    font-size: 35px;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 34px;
+    text-align: center;
+    margin: 35px 35px;
+}
+
+
+h3 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 30px;
+    gap: 15px;
+}
+
+
+main h3 {
+    margin: 20px 0px;
+    display: block;
+    text-align: start;
+}
+
+.contenedorCardsproductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3rem auto;
+}
+
+.gomitas-corazon {
+    padding-left: 2rem;
+    background-image: url(../assets/gomitasfondo.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    gap: 1rem;
+    margin: 3rem auto;
+}
+
+.cardProducto {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    gap: 0px;
+
+}
+.cardProductoCarrito {
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    height: max-content;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+    width:max-content;
+    gap: 0px;
+
+}
+
+.productoTitulo {
+    font-size: 15px;
+    text-align: center;
+    height: 50px;
+
+}
+
+.productoPrecio {
+    font-size: 1.25rem;
+    text-align: center;
+    height: max-content;
+}
+
+.imgCarrito {
+    width: 12rem;
+    object-fit: cover;
+    height: 12rem;
+    align-content: center;
+}
+
+
+
+.btnAgregar {
+    background-color: #71D1EA;
+    border-radius: 12px;
+    border: none;
+
+}
+
+.btnAgregar p {
+
+    text-align: center;
+    font-size: 18px;
+}
+
+/*CARRITO*/
+
+.carritoContenedor {
+    background-color: #71D1EA;
+}
+
+.carritoContenido {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.carritoHeader {
+    background-color: #fff;
+}
+
+.carritoBoton {
+    bottom: unset;
+    font-size: 30px;
+}
+
+.carritoBotonCerrar{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+/*FOOTER*/
+footer {
+    background-color: #71D1EA;
+    height: 100%;
+}
+
+.footerParrafo {
+    font-size: 20px;
+    text-align: center;
+}
